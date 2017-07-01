@@ -1,7 +1,7 @@
 {
-  "name": "twiz-id",
-  "version": "0.2.0",
-  "description": "Short id generator",
+  "name": "@twiz/id",
+  "version": "0.2.1",
+  "description": "Quick id generator",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/index.js"
@@ -10,7 +10,6 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "simple-statistics": "^3.0.0"
+    "mocha": "^3.3.0"
   }
 }
