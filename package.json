@@ -1,22 +1,31 @@
 {
-  "name": "@twiz/id",
-  "version": "0.2.2",
-  "description": "Quick id generator",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha ./test/index.js"
-  },
+  "name": "ideally",
+  "version": "0.1.0",
+  "description": "Simple id generator",
   "author": {
     "name": "José Carneiro",
-    "email": "jose@light.pt"
+    "email": "contact@josecarnei.ro",
+    "url": "https://josecarnei.ro"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/twizco/id.git"
+    "type": "git",
+    "url": "git+https://github.com/josecarneiro/ideally.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josecarneiro/ideally/issues"
   },
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/index.js",
+    "test:dev": "nodemon --exec \"mocha ./test/index.js || true\"",
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore client"
+  },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.3.0"
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "eslint-config-josecarneiro": "0.0.2",
+    "mocha": "^5.0.0",
+    "nodemon": "^1.14.11"
   }
 }
